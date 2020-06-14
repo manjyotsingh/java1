@@ -1,7 +1,7 @@
 <project name="myfirst1" basedir="." default="package">
 
 <property name="src" value="src" />
-
+//this is test command
 <target name="clean">
 	<echo message="We are in cleaning target........."/>
 	<delete file="bin/HelloWorld.class"/>
