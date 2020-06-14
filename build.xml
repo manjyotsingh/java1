@@ -7,7 +7,7 @@
 	<delete file="bin/HelloWorld.class"/>
 	<delete dir="bin"/>
 	<delete dir="lib"/>
-</target>
+
 
 <target name="create" depends="clean">
 	<echo message="We are in creating target........."/>
