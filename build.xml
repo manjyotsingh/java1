@@ -2,7 +2,11 @@
 
 <property name="src" value="src" />
 
-
+<target name="clean">
+	<echo message="We are in cleaning target........."/>
+	<delete file="bin/HelloWorld.class"/>
+	<delete dir="bin"/>
+	<delete dir="lib"/>
 </target>
 
 <target name="create" depends="clean">
